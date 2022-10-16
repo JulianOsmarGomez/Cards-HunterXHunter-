@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgoldenrod;
+}
+.cards-container{
+    height: 100vh;
+    min-width: 100vh;
+    font-size: 16em;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px; ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 310px;
+    height: 560px;
+    background-color: brown;
+    display: relative;
+    overflow: hidden;
+}
+.gon{
+    background-image: linear-gradient(to top, #0D0D0D 40%, #57A64B 60%);
+}
+.killua{
+    background-image: linear-gradient(to top, #293473 40%, #734570 60%);
+}
+.kurapika{
+    background-image: linear-gradient(to top, #D95555 40%, #163573 60%);
+}
+.Leorio{
+    background-image: linear-gradient(to top, #115259 40%, #033159 60%); 
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    display: absolute;
+}
+.caracteristicas {
+   height: 100%;
+   width: 100%;
+   font-size: 1rem;
+   position: relative;
+   z-index: 12;
+   opacity: 0;
+}
+.caracteristicas:hover{
+  opacity: 1;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.box-personaje{
+    width: 310px;
+    height: 560px;
+    position: absolute;
+    z-index: 9;
+}
+.nombre-personaje{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 5px;
+    color: #293473;
+}
+
+.sub-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #293473;
+    font-family: 'Roboto', sans-serif;
+}
+.details{
+    color: #fff;
+    height: 80%;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.poderes__nombre{
+    text-align: center; 
+    margin-top: 10px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.poderes__p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.header-card{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.logo-container{
+    width: 50px;
+}
+
+.logo-container img{
+    width: 100%;
+}
+.imgtitle-container{
+    width: 50px;
+}
+.colorkura{
+    color:#D95555;
+}
+.colorgon{
+    color: #0D0D0D;
+}
+.colorwhite{
+    color: #fff;
+}
